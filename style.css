@@ -3,6 +3,12 @@
 
 }
 
+img {
+    width: 100%;
+    /* visibility: visible;
+    display: block !important; */
+}
+
 .sony {
     padding: .8rem;
 }
@@ -10,3 +16,28 @@
 .sony-logo {
     width: 80px;
 }
+
+.returnal {
+    background-image: url(img-5/jumbo-bg.png);
+    background-color: salmon;
+    height: 593px;
+    display: flex;
+    padding-top: 10rem;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+.yellow-logo {
+}
+
+.btn-red {
+    background-color: #CD3D0F;
+    border-radius: 10rem;
+}
+
+.radius {
+    border-radius: 20px;
+}
+
