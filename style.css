@@ -70,6 +70,10 @@ h5:hover {
     background-color: #1F1F1F;
 }
 
+.explore-container {
+    margin: 3rem 0;
+}
+
 .explore {
     margin: 3rem 0;
 }
@@ -81,6 +85,54 @@ h5:hover {
 .btn-psplus {
     background-color: #D9DADC;
     color: #0070D1;
+}
+
+.psstore-container {
+    margin: 3rem 0;
+}
+
+.psnow {
+    background-color: #161C3B;
+}
+
+.socials-title {
+    margin: 3rem 0;
+}
+
+.container-social {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.footer {
+    background-color: #00439C;
+}
+
+.pslogo {
+    width: 96px;
+    margin: 30px 0;
+}
+
+.globe {
+    width: 20px;
+    display: inline;
+    margin-right: 14px;
+}
+
+.sie {
+    width: 129px;
+    margin: 30px 0 10px;
+}
+
+.remove {
+    list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
 }
 
 @media screen and (max-width: 767px) {
