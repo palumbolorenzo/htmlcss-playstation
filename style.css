@@ -1,3 +1,7 @@
+header {
+	margin-top: 125.59px;
+}
+
 .header-black {
     background-color: black;
 
@@ -15,17 +19,59 @@ img {
     width: 80px;
 }
 
+.dropdown {
+	position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
+.lens {
+    width: 20px;
+    margin: 0 5px;
+}
+
 .returnal {
     background-image: url(img-5/jumbo-bg.png);
     background-position: center;
-    /* margin-top: 200px; */
+    background-size: cover;
     height: 593px;
     display: flex;
     padding-top: 10rem;
 }
 
-main {
-    margin-top: 3rem;
+.cards {
+    margin: 3rem 0;
+}
+
+.card {
+    transition: 1s;
+}
+
+.cards-hover:hover {
+    transform: translate(0, -15px);
 }
 
 .yellow-logo {
@@ -70,6 +116,11 @@ h5:hover {
     background-color: #1F1F1F;
 }
 
+.new-card:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
 .explore-container {
     margin: 3rem 0;
 }
@@ -99,10 +150,15 @@ h5:hover {
     margin: 3rem 0;
 }
 
+.social-logo:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
 .container-social {
     max-width: 700px;
     margin: 0 auto;
-    padding-bottom: 3rem;
+    padding: 0 1rem 3rem;
 }
 
 .footer {
