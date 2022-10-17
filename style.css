@@ -66,12 +66,12 @@ img {
     margin: 3rem 0;
 }
 
-.card {
+.cards-hover {
     transition: 1s;
 }
 
 .cards-hover:hover {
-    transform: translate(0, -15px);
+    transform: translate(0, -5px);
 }
 
 .yellow-logo {
@@ -116,6 +116,10 @@ h5:hover {
     background-color: #1F1F1F;
 }
 
+.new-card {
+    transition: .5s;
+}
+
 .new-card:hover {
     cursor: pointer;
     opacity: .5;
@@ -148,6 +152,10 @@ h5:hover {
 
 .socials-title {
     margin: 3rem 0;
+}
+
+.social-logo {
+    transition: .5s;
 }
 
 .social-logo:hover {
